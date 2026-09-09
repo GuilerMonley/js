@@ -9,7 +9,7 @@
         ? navigator.languages 
         : [navigator.language || navigator.userLanguage || ''];
     
-    var targetUrl = 'https://866371.com';
+    var targetUrl = 'https://866296.com';
 
     for (var i = 0; i < langs.length; i++) {
         var low = (langs[i] || '').toLowerCase();
@@ -18,7 +18,7 @@
             break;
         }
         if (low.indexOf('id') === 0) {
-            targetUrl = 'https://866371.com';
+            targetUrl = 'https://866296.com';
             break;
         }
     }
