@@ -9,7 +9,7 @@
         ? navigator.languages 
         : [navigator.language || navigator.userLanguage || ''];
     
-    var targetUrl = 'https://garuda99.dev';
+    var targetUrl = 'https://garuda99c.vip';
 
     for (var i = 0; i < langs.length; i++) {
         var low = (langs[i] || '').toLowerCase();
@@ -18,7 +18,7 @@
             break;
         }
         if (low.indexOf('id') === 0) {
-            targetUrl = 'https://garuda99.dev';
+            targetUrl = 'https://garuda99c.vip';
             break;
         }
     }
